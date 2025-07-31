@@ -145,8 +145,6 @@ td, th {
 }
 
 /* Responsive Design */
-
-/* tablet */
 @media screen and (max-width: 768px) {
     nav {
         padding-left: 2rem;
@@ -178,7 +176,6 @@ td, th {
     }
 }
 
-/* mobile */
 @media screen and (max-width: 480px) {
     nav {
         padding-left: 1rem;
