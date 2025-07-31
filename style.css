@@ -143,3 +143,78 @@ td, th {
   text-align: left;
   padding: 8px;
 }
+
+/* Responsive Design */
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    nav {
+        padding-left: 2rem;
+    }
+
+    .search-box {
+        width: 300px;
+    }
+
+    .search-box .input-box {
+        width: 300px;
+    }
+
+    .date h1 {
+        font-size: 24px;
+        padding: 30px;
+    }
+
+    .todo, .list, .add-task, .time-line {
+        margin: 22.5px 2rem;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .list {
+        font-size: 20px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+    nav {
+        padding-left: 1rem;
+    }
+
+    .search-box {
+        width: 200px;
+    }
+
+    .search-box .input-box {
+        width: 200px;
+    }
+
+    .date h1 {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .todo, .list, .add-task, .time-line {
+        margin: 22.5px 1rem;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .list {
+        font-size: 16px;
+    }
+
+    .time-work {
+        margin: 22.5px 1rem;
+        overflow-x: auto;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
